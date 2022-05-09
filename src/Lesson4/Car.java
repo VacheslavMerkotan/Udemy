@@ -14,6 +14,7 @@ class CarTest {
         System.out.println(car1.color);
         System.out.println(car1.engine);
         System.out.println(car1.engine);
+        System.out.println(car1.engine);
 
     }
 }
