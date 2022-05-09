@@ -30,7 +30,7 @@ class Car2Test {
             c1.showInfo();
             c1.gaz(20);
             c1.showInfo();
-            c1.tormoz(120);
+            c1.tormoz(12);
             c1.showInfo();
 
         }

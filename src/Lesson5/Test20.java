@@ -16,10 +16,10 @@ public class Test20 {
 class Test21 {
     public static void main(String[] args) {
         Test20 t = new Test20();
-       int summaTrexChisel = t.summa(1, 2, 3);
+
+        int summaTrexChisel = t.summa(1, 2, 3);
         System.out.println(summaTrexChisel);
         System.out.println(t.summa(5, 10, 15));
-
         System.out.println(t.sredneeArifme(20, 40, 60));
     }
 }

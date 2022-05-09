@@ -13,8 +13,6 @@ class CarTest {
         Car car1 = new Car("yellow", "V4");
         System.out.println(car1.color);
         System.out.println(car1.engine);
-        System.out.println(car1.engine);
-        System.out.println(car1.engine);
 
     }
 }
