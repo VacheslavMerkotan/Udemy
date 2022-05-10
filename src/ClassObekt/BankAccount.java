@@ -5,6 +5,11 @@ public class BankAccount {
     String name = "Peter";
     double ballance = 100;
 
+    void showInfo() {
+        System.out.println("Id: " + id + ", " + "Name: " + name + ", " + "Ballance: " + ballance);
+    }
+
+
 }
 class BankAccountTest{
     public static void main(String[] args){
@@ -25,8 +30,14 @@ class BankAccountTest{
             HisAccount.name = "Andrey";
             HisAccount.ballance = 8.40;
 
-            System.out.println(MyAccount.name);
-            System.out.println(MyAccount.name);
+            MyAccount.showInfo();
+            YorAccount.showInfo();
+            HisAccount.showInfo();
+
+           //System.out.println(MyAccount.id);
+           //System.out.println(MyAccount.name);
+           //System.out.println(MyAccount.ballance);
+
 
 
 
